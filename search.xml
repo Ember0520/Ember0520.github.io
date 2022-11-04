@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>矢量场的散度和旋度</title>
+      <link href="/2022/11/04/%E6%95%A3%E5%BA%A6%E5%92%8C%E6%97%8B%E5%BA%A6/"/>
+      <url>/2022/11/04/%E6%95%A3%E5%BA%A6%E5%92%8C%E6%97%8B%E5%BA%A6/</url>
+      
+        <content type="html"><![CDATA[<h1 id="散度">散度</h1><p>散度是一个标量，用于体现矢量场各点发散的强弱程度。对于矢量场<span class="math inline">\({ \textbf{F}}\)</span>：</p><p><span class="math inline">\({\color{DarkRed} div \textbf{F} = \displaystyle \lim_{ \Delta V \to 0}\tfrac{\oint_{S} \textbf{F}\cdot d\textbf{S}}{\Delta V} = \nabla \, \cdot \, \textbf{F}}\)</span></p><p><span class="math inline">\({ div \textbf{F}}\)</span>描述通量源的密度。</p><p><strong>散度定理（高斯定理）：</strong></p><p><span class="math inline">\({\color{Red} \int_{V}\nabla\,\cdot \,\textbf{F}dV = \oint_{S}\textbf{F}\,\cdot \,d\textbf{S}}\)</span></p><h1 id="旋度">旋度</h1><p>散度是一个矢量，用于体现矢量场各点附近环流的强弱程度。对于矢量场<span class="math inline">\({ \textbf{F}}\)</span>：</p><p><span class="math inline">\({\color{DarkRed} rot \textbf {F} = \displaystyle \lim_{ \Delta S \to 0}\tfrac{1}{\Delta S}\oint_{S} \textbf{F}\cdot d\textbf{l}\mathrel{|_{max}} = \nabla \, \times \, \textbf{F}}\)</span></p><p><span class="math inline">\({ rot \textbf{F}}\)</span>描述旋涡源的密度。</p><p><strong>斯托克斯定理：</strong></p><p><span class="math inline">\({\color{Red}\int_{S}\nabla\,\times \,\textbf{F}d\textbf{S} = \oint_{C}\textbf{F}\,\times \,d\textbf{l}}\)</span></p><h1 id="nabla-nabla算子"><span class="math inline">\(\nabla\)</span> Nabla算子</h1><p><strong>含义</strong>：三维直角坐标系中，</p><p><span class="math inline">\(\nabla f=\left(\frac{\partial f}{\partial x}, \frac{\partial f}{\partial y}, \frac{\partial f}{\partial z}\right)=\mathbf{i}\frac{\partial f}{\partial x}+\mathbf j\frac{\partial f}{\partial y}+\mathbf k\frac{\partial f}{\partial z}\)</span></p><p>其中，<span class="math inline">\(\mathbf i， \mathbf j ，\mathbf k\)</span> 依次是 x 、 y 、 z 方向的单位矢量（算子含义与坐标系选取无关，仅列出在三维直角坐标系中的表达式）。</p><p><strong>各种意义：</strong></p><ol type="1"><li><p>作用于标量场 <span class="math inline">\(u\)</span> 得到梯度 <span class="math inline">\(\textbf{grad}\, u=\nabla u\)</span>;</p></li><li><p>与矢量函数点乘得散度：<span class="math inline">\(div\textbf{F} = \nabla \, \cdot \, \textbf{F}\)</span>;</p></li><li><p>与矢量函数叉乘得旋度：<span class="math inline">\(rot\textbf{F} = \nabla \, \times \, \textbf{F}\)</span>;</p></li></ol><p>感性理解为什么求散度用点乘，求旋度用叉乘（看3b1b的www）：</p><p>点乘可以衡量两个向量的共线程度，此处即是衡量位移向量和场向量的共线程度（如图对于正通量源点蓝绿色是场向量，红色是位移向量）；</p><figure><img src="https://img-blog.csdnimg.cn/67b1efb630ab4d5dbab80a5429640f74.jpeg" alt="在这里插入图片描述" /><figcaption>在这里插入图片描述</figcaption></figure><p>叉乘可以衡量两个向量的垂直程度，此处即是衡量位移向量和场向量的垂直程度； <img src="https://img-blog.csdnimg.cn/3505c01ebc4d4d538f8bf0c3323ebce7.jpeg" alt="在这里插入图片描述" /></p><h1 id="重要定理">重要定理</h1><p><strong>格林定理</strong>：描述两个标量场之间满足的关系，如果其中已知其中一个场的分布，可以用格林定理求解另一个场的分布。 <img src="https://img-blog.csdnimg.cn/ed9e7dc6002d4f8fb10829dde30f2a5c.jpeg" alt="在这里插入图片描述" /></p><p><strong>亥姆霍兹定理：</strong> 在任何有限区域V内，任一矢量场由它的散度、旋度和边界条件惟一地确定。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电磁场 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电磁场 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>线段树</title>
       <link href="/2022/10/12/%E7%BA%BF%E6%AE%B5%E6%A0%91/"/>
       <url>/2022/10/12/%E7%BA%BF%E6%AE%B5%E6%A0%91/</url>
