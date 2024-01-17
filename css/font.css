@@ -1,0 +1,15 @@
+@font-face{
+    font-family: 'AaHuaYu·ZiLuoLanYongHeng-2';
+    font-display: swap;
+    src: url('../font/AaHuaYu·ZiLuoLanYongHeng-2.ttf') format("truetype");
+}
+
+@font-face{
+    font-family: 'ConsolateElf-X33XP';
+    font-display: swap;
+    src: url('../font/ConsolateElf-X33XP.ttf') format("truetype");
+}
+
+body {
+    font-family: 'AaHuaYu·ZiLuoLanYongHeng-2', 'ConsolateElf-X33XP';
+}
